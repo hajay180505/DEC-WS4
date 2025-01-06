@@ -1,0 +1,4 @@
+yarn create react-app spotify-clone --template typescript
+yarn add -D tailwindcss postcss autoprefixer
+yarn tailwindcss init -p
+yarn start
