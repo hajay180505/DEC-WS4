@@ -14,10 +14,7 @@ export default function Navbar() {
             </svg>
           </div>
           <div className="bg-slate-700/60 rounded-full p-2 px-4 flex flex-row gap-2 ">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#ffffff" className="size-6">
-              <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-            </svg>
-            <input className='text-gray-200 text-sm bg-slate-700/0 w-[300px]' placeholder='What do you want to listen to?'
+            <input className='text-gray-200 text-sm bg-slate-700/0 w-[300px] before:content-homeIcon before:inline-block before:size-6' placeholder='What do you want to listen to?'
               type="text" name="search" id="search " />
           </div>
         </div>
